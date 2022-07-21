@@ -6,11 +6,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "npx eslint src --ext .ts,.tsx"
+    "lint": "npx eslint src --ext .ts,.tsx --fix"
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.1.3",
